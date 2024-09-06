@@ -1,0 +1,51 @@
+.skill-section {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+.skill-item h4 {
+  margin-bottom: 10px;
+}
+
+.progress {
+  background-color: #ddd;
+  border-radius: 20px;
+  height: 15px;
+}
+
+.progress-value{
+  margin-left: 95%;
+}
+
+.progress-bar {
+  background-color: var(--primary-dark);
+  border-radius: 20px;
+  height: 100%;
+  width: 0%;
+  transition: width 1.5s ease;
+}
+
+#skill h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: var(--primary-dark);
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+
+
+@media only screen and (max-width: 798px) {
+    .skill-heading{
+        margin-right: 260px;
+    }
+}
+
+
+
+
+
+
+

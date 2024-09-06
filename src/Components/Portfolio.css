@@ -1,0 +1,91 @@
+/* Example Portfolio.css */
+.portfolio-section {
+  padding: 20px;
+}
+
+.main {
+  text-align: center;
+}
+
+#myBtnContainer {
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  background-color: var(--primary-dark); /* Replace with your primary dark color */
+  color: #fff;
+  border: none;
+  border-radius: 5px; /* Optional: for rounded corners */
+  transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+.btn.active {
+  background-color: var(--primary-dark);
+  color: #fff;
+}
+
+.btn:hover {
+  background: var(--primary-light); /* Change background color */ 
+  transform: scale(1.05); /* Slightly scale up the button */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+  color: #000;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1 0 30%;
+  margin: 10px;
+}
+
+.content {
+  border: 1px solid #ddd;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  
+}
+
+
+.content h4{
+  margin-top: 40px;
+}
+
+/* Add this CSS to apply the transform effect on the portfolio cards */
+.column .content {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+}
+
+.column .content:hover {
+  transform: translateY(-10px); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  background-color: var(--primary-light);
+}
+
+
+.column .content:hover h4{
+  color: #fff;
+}
+
+.column .content:hover p{
+  color: #fff;
+}
+
+
+
+
+.hide {
+  display: none;
+}
+
+@media only screen and (max-width: 798px) {
+    .main h2{
+        margin-right: 200px;
+    }
+}

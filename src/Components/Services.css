@@ -1,0 +1,71 @@
+.services-section {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+}
+
+.service-card {
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  background-color: var(--primary-light); /* Change background color on hover */
+}
+
+.service-card .icon {
+  font-size: 2.5rem;
+  color: var(--primary-dark);
+  transition: color 0.3s ease; /* Add transition for icon color */
+}
+
+.service-card:hover .icon {
+  color: var(--primary-light); /* Change icon color on hover */
+}
+
+.service-card .card-title {
+  margin-top: 15px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  transition: color 0.3s ease; /* Add transition for title color */
+}
+
+.service-card:hover .card-title {
+  color: #fff; /* Change title color on hover */
+}
+
+.service-card .card-text {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #6c757d;
+  line-height: 1.5;
+  min-height: 144px;
+  transition: color 0.3s ease; /* Add transition for text color */
+}
+
+.service-card:hover .card-text {
+  color: #fff; /* Change text color on hover */
+}
+
+.service-icon {
+  font-size: 3rem;
+  color: var(--primary-dark);
+  transition: color 0.3s ease; /* Add transition for icon color */
+}
+
+.service-card:hover .service-icon {
+  color: #fff; /* Change icon color on hover */
+}
+
+
+
+
+
+@media only screen and (max-width: 798px) {
+    #services h2{
+        margin-right: 200px;
+    }
+}
+

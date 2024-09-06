@@ -1,0 +1,37 @@
+
+
+.about-image img {
+  transition: transform 0.3s ease-in-out;
+  width: 80%;
+  margin-top: 50px;
+}
+
+.about-image img:hover {
+  transform: scale(1.05);
+}
+
+.paragraph {
+  margin-top: -100px;
+}
+
+.about-content h2{
+  transform: translateY(-85px);
+}
+
+.about-section .btn {
+  margin-top: 5px;
+  background: var(--primary-dark);
+  color: #fff;
+  transition: transform 0.5s;
+  position: relative;
+  top: 0;
+  right: 8px;
+}
+
+.about-section .btn:hover {
+  background: var(--primary-light); /* Change background color */
+  color: #000; /* Change text color */
+  transform: scale(1.05); /* Slightly scale up the button */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+}
+
