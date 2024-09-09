@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Navbar.css";
 import Typewriter from "typewriter-effect";
-import abbas from "../assets/images/abbas-2.png";
+import abbas from "../assets/images/abbas1.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
