@@ -1,14 +1,23 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Services.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Services = () => {
-  
+  useEffect(() => {
+    AOS.init({
+      duration: 1500, // Animation duration
+      easing: 'ease-in-out', // Animation easing
+      once: true, // Whether animation should happen only once while scrolling down
+    });
+  }, []);
+
   return (
     <div className="services-section py-5" id="services">
       <div className="container">
-        <h2 className="text-center mb-5">My Services</h2>
+        <h2 className="text-center mb-5" data-aos="fade-up">My Services</h2>
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-4" data-aos="fade-right">
             <div className="card service-card">
               <div className="card-body text-center">
                 <i className="fas fa-code service-icon mb-3"></i>
@@ -21,7 +30,7 @@ const Services = () => {
             </div>
           </div>
 
-          <div className="col-md-4">
+          <div className="col-md-4" data-aos="fade-up">
             <div className="card service-card">
               <div className="card-body text-center">
                 <i className="fas fa-mobile-alt service-icon mb-3"></i>
@@ -34,7 +43,7 @@ const Services = () => {
             </div>
           </div>
 
-          <div className="col-md-4">
+          <div className="col-md-4" data-aos="fade-left">
             <div className="card service-card">
               <div className="card-body text-center">
                 <i className="fas fa-laptop-code service-icon mb-3"></i>
@@ -49,7 +58,7 @@ const Services = () => {
         </div>
 
         <div className="row mt-4">
-          <div className="col-md-4">
+          <div className="col-md-4" data-aos="fade-right">
             <div className="card service-card">
               <div className="card-body text-center">
                 <i className="fas fa-cloud service-icon mb-3"></i>
@@ -62,7 +71,7 @@ const Services = () => {
             </div>
           </div>
 
-          <div className="col-md-4">
+          <div className="col-md-4" data-aos="fade-up">
             <div className="card service-card">
               <div className="card-body text-center">
                 <i className="fas fa-shield-alt service-icon mb-3"></i>
@@ -75,7 +84,7 @@ const Services = () => {
             </div>
           </div>
 
-          <div className="col-md-4">
+          <div className="col-md-4" data-aos="fade-left">
             <div className="card service-card">
               <div className="card-body text-center">
                 <i className="fas fa-search service-icon mb-3"></i>

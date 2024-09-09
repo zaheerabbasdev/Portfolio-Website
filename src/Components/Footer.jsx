@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos"; // Import AOS
+import "aos/dist/aos.css"; // Import AOS styles
 import "./Footer.css"; // Import the CSS for Footer
 import facebook from "../assets/images/facebook.png";
 import WhatsApp from "../assets/images/WhatsApp.png";
@@ -9,10 +11,19 @@ import phone_call from "../assets/images/phone-call.png";
 import location from "../assets/images/location.png";
 
 const Footer = () => {
+  // Initialize AOS
+  useEffect(() => {
+    AOS.init({
+      duration: 1500, // Animation duration
+      easing: "ease-in-out", // Easing function
+      once: true, // Whether animation should happen only once
+    });
+  }, []);
+
   return (
     <div className="footer" id="contact">
       <div className="row">
-        <div className="col-md-4">
+        <div className="col-md-4" data-aos="fade-up">
           <h3>Mission</h3>
           <p className="text-justify">
             Our mission is to deliver expert hybrid battery solutions that
@@ -22,7 +33,7 @@ const Footer = () => {
             practices.
           </p>
         </div>
-        <div className="col-md-2">
+        <div className="col-md-2" data-aos="fade-up" data-aos-delay="200">
           <h3>Links</h3>
           <ul>
             <li>
@@ -42,7 +53,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="col-md-3">
+        <div className="col-md-3" data-aos="fade-up" data-aos-delay="400">
           <h3>Follow Us</h3>
           <ul>
             <li>
@@ -80,7 +91,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="col-md-3">
+        <div className="col-md-3" data-aos="fade-up" data-aos-delay="600">
           <h3>Contact Us</h3>
           <ul>
             <li>
@@ -95,12 +106,14 @@ const Footer = () => {
             </li>
             <li>
               <img src={location} alt="location" className="social-icon" />
-             <a href="https://goo.gl/maps/ZaheerAbbasLocation" target="blank">Village Tano Tehsil Lahor Distt Swabi</a>
+              <a href="https://goo.gl/maps/ZaheerAbbasLocation" target="blank">
+                Village Tano Tehsil Lahor Distt Swabi
+              </a>
             </li>
           </ul>
         </div>
       </div>
-      <div className="bottom-footer">
+      <div className="bottom-footer" data-aos="fade-up" data-aos-delay="800">
         <p className="text-copyright text-center">
           © 2024 Zaheer's Portfolio All Rights Reserved
         </p>

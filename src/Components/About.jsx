@@ -1,14 +1,27 @@
-import React from "react";
+import React, { useEffect } from "react";
 import abbas from "../assets/images/about-1.png";
 import "./About.css";
+import AOS from "aos";
+import "aos/dist/aos.css"; // Import AOS styles
 
 const About = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1200, // Duration of animation
+      easing: "ease-in-out", // Easing for animation
+      once: true, // Whether animation should happen only once while scrolling down
+    });
+  }, []);
+
   return (
     <div>
       <section className="about-section py-5" id="about">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-md-6">
+            <div
+              className="col-md-6"
+              data-aos="fade-right" // Animation for the image
+            >
               <div className="about-image">
                 <img
                   src={abbas}
@@ -17,7 +30,10 @@ const About = () => {
                 />
               </div>
             </div>
-            <div className="col-md-6 about-content">
+            <div
+              className="col-md-6 about-content"
+              data-aos="fade-left" // Animation for the content
+            >
               <h2 className="mb-4">About Us</h2>
               <p className="mb-4 paragraph">
                 I'm a full stack developer, I offer end-to-end services to help
@@ -37,6 +53,7 @@ const About = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn"
+                data-aos="fade-up" // Animation for the button
               >
                 Contact Us
               </a>
