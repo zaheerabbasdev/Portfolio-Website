@@ -1,4 +1,3 @@
-/* Example Portfolio.css */
 .portfolio-section {
   padding: 20px;
 }
@@ -15,7 +14,9 @@
   padding: 10px 20px;
   margin: 10px;
   cursor: pointer;
-  background-color: var(--primary-dark); /* Replace with your primary dark color */
+  background-color: var(
+    --primary-dark
+  ); /* Replace with your primary dark color */
   color: #fff;
   border: none;
   border-radius: 5px; /* Optional: for rounded corners */
@@ -28,7 +29,7 @@
 }
 
 .btn:hover {
-  background: var(--primary-light); /* Change background color */ 
+  background: var(--primary-light); /* Change background color */
   transform: scale(1.05); /* Slightly scale up the button */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow effect */
   color: #000;
@@ -37,54 +38,84 @@
 .row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center; /* Center-align the cards */
 }
 
 .column {
-  flex: 1 0 30%;
+  flex: 1 0 30%; /* Three cards per row (30% width for each card) */
   margin: 10px;
+  max-width: 27%; /* Ensures three cards per row */
 }
 
 .content {
   padding: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 10px; /* Add rounded corners */
+  text-align: center; /* Center-align content */
 }
 
-
-.content h4{
-  margin-top: 40px;
+.content img {
+  width: 50%;
+  object-fit: cover;
 }
 
-/* Add this CSS to apply the transform effect on the portfolio cards */
+.content h4 {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.content p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Hover effects */
 .column .content {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  
+  margin-top: 20px;
 }
 
 .column .content:hover {
-  transform: translateY(-10px); 
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   background-color: var(--primary-light);
 }
 
-
-.column .content:hover h4{
+.column .content:hover h4 {
   color: #fff;
 }
 
-.column .content:hover p{
+.column .content:hover p {
   color: #fff;
 }
-
-
-
 
 .hide {
   display: none;
 }
 
+/* Media query for smaller screens */
 @media only screen and (max-width: 798px) {
-    .main h2{
-        margin-right: 200px;
-    }
+  .column {
+    flex: 1 0 45%;
+    max-width: 45%; /* Allows two cards per row */
+  }
+
+  .content img {
+    width: 200px;
+  }
+
+  .main h2{
+    margin-right: 180px;
+  }
+
+
+}
+
+/* Media query for very small screens (mobile) */
+@media only screen and (max-width: 500px) {
+  .column {
+    flex: 1 0 100%; /* One card per row */
+    max-width: 100%;
+  }
 }

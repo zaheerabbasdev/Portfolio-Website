@@ -268,9 +268,11 @@ nav {
   }
 
   .img-fluid {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     border-radius: 10px; /* Optional: rounded corners for the image */
+    position: relative;
+    right: 70px;
   }
 
   .typewriter-container {

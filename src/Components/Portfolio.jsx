@@ -62,7 +62,7 @@ const Portfolio = () => {
                 transportation services for pilgrims, ensuring a comfortable and
                 safe journey for Umrah travelers. Offering a range of vehicles
                 and professional drivers, the service is dedicated to making
-                pilgrimage transportation seamless and stress-free.
+                pilgrimage transportation seamless.
               </p>
               <a
                 href="https://zainumrahtransport.com/"
@@ -83,7 +83,7 @@ const Portfolio = () => {
                 battery solutions, offering reliable replacement, repair, and
                 maintenance services for hybrid vehicles. With a focus on
                 performance and sustainability, the company ensures that hybrid
-                batteries are optimized for longevity and efficiency.
+                batteries are optimized for longevity.
               </p>
               <a
                 href="https://hybridhub.pk/"
@@ -104,7 +104,7 @@ const Portfolio = () => {
                 transportation services for pilgrims, ensuring a comfortable and
                 safe journey for Umrah travelers. Offering a range of vehicles
                 and professional drivers, the service is dedicated to making
-                pilgrimage transportation seamless and stress-free.
+                pilgrimage transportation seamless.
               </p>
               <a
                 href="https://zainumrahtransport.com/"
@@ -125,8 +125,7 @@ const Portfolio = () => {
                 English Thesaurus is a comprehensive resource that provides
                 synonyms, antonyms, and related words to enhance vocabulary and
                 improve writing. It helps users find alternative word choices,
-                offering a deeper understanding of the English language and
-                aiding in more precise communication.
+                offering a deeper understanding of the English language.
               </p>
               <a
                 href="https://play.google.com/store/apps/details?id=sh.eagletech.englishthesauruspro"
@@ -232,8 +231,7 @@ const Portfolio = () => {
                 EagleTech. This English Thesaurus have words database which
                 contains more than 200,000 words and their Grammar, Definition,
                 Antonym and Synonym Oxford, Webster, Chamber and Mariam. This
-                English Thesaurus will expand your English vocabulary or find
-                just the right word
+                English Thesaurus will expand your English vocabulary.
               </p>
               <a
                 href="https://play.google.com/store/apps/details?id=sh.csacademy.englishthesaurus"

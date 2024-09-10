@@ -41,3 +41,52 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow effect */
 }
 
+
+@media only screen and (max-width: 798px) {
+  
+
+.about-image img {
+  transition: transform 0.3s ease-in-out;
+  width: 85%;
+  margin-top: 100px;
+  position: relative;
+  right: 80px;
+}
+
+.about-image img:hover {
+  transform: scale(1.05);
+}
+
+.paragraph {
+  margin-top: -100px;
+  position: relative;
+  right: 0;
+  left: 10px;
+}
+
+.about-content h2{
+  transform: translateY(-85px);
+  position: relative;
+  right: 0;
+  left: 10px;
+}
+
+.about-section .btn {
+  margin-top: 5px;
+  background: var(--primary-dark);
+  color: #fff;
+  transition: transform 0.5s;
+  position: relative;
+  top: 0;
+  right: 0;
+}
+
+.about-section .btn:hover {
+  background: var(--primary-light); /* Change background color */
+  color: #000; /* Change text color */
+  transform: scale(1.05); /* Slightly scale up the button */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+}
+
+
+}
