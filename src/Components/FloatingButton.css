@@ -22,4 +22,11 @@
     color: #ffffff;
 }
 
+@media (max-width: 500px) {
+  .float{
+    margin-right: 20px;
+    
+  }
+}
+
 

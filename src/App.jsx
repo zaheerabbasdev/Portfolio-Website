@@ -5,6 +5,7 @@ import Skills from "./Components/Skills";
 import Services from "./Components/Services";
 import Portfolio from "./Components/Portfolio";
 import Footer from "./Components/Footer";
+import Education from './Components/Education';
 import FloatingButton from "./Components/FloatingButton";
 
 
@@ -13,10 +14,12 @@ function App() {
     <div>
       <Navbar />
       <About/>
+      <Education/>
       <Skills/>
       <Services/>
       <Portfolio/>
       <Footer/>
+      
       <FloatingButton/>
     
     </div>

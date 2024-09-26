@@ -6,7 +6,7 @@ import 'aos/dist/aos.css';
 const Services = () => {
   useEffect(() => {
     AOS.init({
-      duration: 1500, // Animation duration
+      duration: 2000, // Animation duration
       easing: 'ease-in-out', // Animation easing
       once: true, // Whether animation should happen only once while scrolling down
     });

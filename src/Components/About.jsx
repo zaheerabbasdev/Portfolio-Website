@@ -7,7 +7,7 @@ import "aos/dist/aos.css"; // Import AOS styles
 const About = () => {
   useEffect(() => {
     AOS.init({
-      duration: 1200, // Duration of animation
+      duration: 2000, // Duration of animation
       easing: "ease-in-out", // Easing for animation
       once: true, // Whether animation should happen only once while scrolling down
     });

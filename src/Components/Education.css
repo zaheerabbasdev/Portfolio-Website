@@ -1,0 +1,178 @@
+/* Global Styles */
+#education {
+  background-color: #f9f9f9; /* Light background for the section */
+  padding: 60px 0;
+}
+
+#education h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333; /* Darker heading color */
+  margin-bottom: 40px;
+}
+
+.card {
+  border: none; /* Remove default card border */
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  color: #fff;
+  background-color: #fff; /* Default background */
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Lift card on hover */
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15); /* Add shadow on hover */
+  background-color: #007bff; /* Change background to blue */
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #007bff; /* Primary color for the degree title */
+  margin-bottom: 10px;
+  transition: color 0.3s ease; /* Transition for hover color change */
+}
+
+.card-subtitle {
+  font-size: 1.2rem;
+  color: #6c757d; /* Muted color for institution */
+  margin-bottom: 15px;
+  transition: color 0.3s ease; /* Transition for hover color change */
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  transition: color 0.3s ease; /* Transition for hover color change */
+}
+
+/* Ensure that the year text changes to white on hover */
+.card-text em {
+  color: #555; /* Gray color for the year text */
+  transition: color 0.3s ease; /* Transition for hover color change */
+}
+
+/* Hover effect changes text colors */
+.card:hover .card-title,
+.card:hover .card-subtitle,
+.card:hover .card-text,
+.card:hover .card-text em { /* Include em tag here */
+  color: #fff; /* Change text color to white on hover */
+}
+
+/* Media Queries */
+
+/* Laptop screens (1024px and above) */
+@media (max-width: 1200px) {
+  #education {
+    padding: 50px 0;
+  }
+
+  #education h2 {
+    font-size: 2.3rem;
+  }
+
+  .card-title {
+    font-size: 1.4rem;
+  }
+
+  .card-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .card-text {
+    font-size: 0.95rem;
+  }
+}
+
+/* iPad and tablets (between 768px and 1024px) */
+@media (max-width: 1024px) {
+  #education {
+    padding: 50px 0;
+  }
+
+  #education h2 {
+    font-size: 2.1rem;
+  }
+
+  .card-title {
+    font-size: 1.3rem;
+  }
+
+  .card-subtitle {
+    font-size: 1rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+
+  .card-body {
+    padding: 15px;
+  }
+}
+
+/* Mobile devices (768px and below) */
+@media (max-width: 768px) {
+  #education {
+    padding: 40px 0;
+  }
+
+  #education h2 {
+    font-size: 2rem; /* Smaller heading on mobile devices */
+    margin-right: 330px;
+  }
+
+  .card {
+    margin-bottom: 30px;
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+  }
+
+  .card-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .card-text {
+    font-size: 0.85rem;
+  }
+
+  .card-body {
+    padding: 10px;
+  }
+}
+
+/* Smaller mobile screens (500px and below) */
+@media (max-width: 500px) {
+  #education {
+    padding: 30px 0;
+  }
+
+  #education h2 {
+    font-size: 1.8rem; /* Even smaller heading on small mobile devices */
+    padding-right: 200px;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+  }
+
+  .card-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .card-text {
+    font-size: 0.8rem;
+  }
+
+  .card-body {
+    padding: 8px;
+  }
+}

@@ -68,6 +68,9 @@ const Navbar = () => {
                   Contact
                 </a>
               </li>
+              <li>
+                <a href="#education" className="nav-link">Education</a>
+              </li>
             </ul>
           </nav>
         </div>
