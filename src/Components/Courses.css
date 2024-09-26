@@ -1,0 +1,46 @@
+/* Courses.css */
+
+#courses {
+    background-color: #f9f9f9; /* Light background for contrast */
+    padding: 40px 0; /* Extra padding for spacing */
+}
+
+#courses h2 {
+    font-size: 2.5rem; /* Larger title size */
+    color: #333; /* Dark color for better readability */
+}
+
+
+
+/* Media queries for responsiveness */
+@media (max-width: 1024px) { /* For laptops */
+    #courses h2 {
+        font-size: 2.2rem; /* Slightly smaller title size */
+    }
+}
+
+@media (max-width: 768px) { /* For iPads */
+    #courses h2 {
+        font-size: 2rem; /* Adjusted title size for iPads */
+    }
+}
+
+@media (max-width: 500px) { /* For small screens */
+    #courses h2 {
+        font-size: 1.75rem; /* Smaller title size for mobile */
+        text-align: center; /* Center the title */
+        margin-right: 220px;
+    }
+
+    .card {
+        margin: 10px; /* Add margin for cards on smaller screens */
+    }
+
+    .card-title {
+        font-size: 1.25rem; /* Adjusted title size for cards */
+    }
+
+    .card-text {
+        font-size: 0.85rem; /* Smaller description size */
+    }
+}

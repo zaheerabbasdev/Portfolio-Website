@@ -49,6 +49,11 @@ const Navbar = () => {
                 </a>
               </li>
               <li>
+                <a href="#education" data-aos="fade-down" data-aos-delay="100">
+                  Education
+                </a>
+              </li>
+              <li>
                 <a href="#skills" data-aos="fade-down" data-aos-delay="200">
                   Skills
                 </a>
@@ -67,9 +72,6 @@ const Navbar = () => {
                 <a href="#contact" data-aos="fade-down" data-aos-delay="500">
                   Contact
                 </a>
-              </li>
-              <li>
-                <a href="#education" className="nav-link">Education</a>
               </li>
             </ul>
           </nav>

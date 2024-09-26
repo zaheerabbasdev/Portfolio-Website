@@ -158,7 +158,7 @@
 
   #education h2 {
     font-size: 1.8rem; /* Even smaller heading on small mobile devices */
-    padding-right: 200px;
+    margin-left: 15px;
   }
 
   .card-title {
