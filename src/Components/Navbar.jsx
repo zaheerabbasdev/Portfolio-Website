@@ -58,6 +58,11 @@ const Navbar = () => {
                   Skills
                 </a>
               </li>
+               <li>
+                <a href="#courses" data-aos="fade-down" data-aos-delay="200">
+                  Courses
+                </a>
+              </li>
               <li>
                 <a href="#services" data-aos="fade-down" data-aos-delay="300">
                   Services
