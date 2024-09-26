@@ -22,7 +22,7 @@
 .card:hover {
   transform: translateY(-10px); /* Lift card on hover */
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15); /* Add shadow on hover */
-  background-color: #007bff; /* Change background to blue */
+  background-color: var(--primary-light); /* Change background to blue */
 }
 
 .card-body {
@@ -32,7 +32,7 @@
 .card-title {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #007bff; /* Primary color for the degree title */
+  color: #333; /* Primary color for the degree title */
   margin-bottom: 10px;
   transition: color 0.3s ease; /* Transition for hover color change */
 }
@@ -64,6 +64,7 @@
 .card:hover .card-text em { /* Include em tag here */
   color: #fff; /* Change text color to white on hover */
 }
+
 
 /* Media Queries */
 

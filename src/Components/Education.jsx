@@ -54,7 +54,7 @@ const Education = () => {
               <div className="card h-100 shadow-sm">
                 <div className="card-body">
                   <h3 className="card-title">{edu.degree}</h3>
-                  <h4 className="card-subtitle mb-2 text-muted">{edu.institution}</h4>
+                  <h4 className="card-subtitle mb-2">{edu.institution}</h4>
                   <p className="card-text"><em>{edu.year}</em></p>
                   <p className="card-text">{edu.description}</p>
                 </div>
