@@ -1,6 +1,7 @@
-// src/components/Courses.js
-import React from "react";
+import React, { useEffect } from "react";
 import "./Courses.css";
+import AOS from "aos";
+import "aos/dist/aos.css"; // Import AOS styles
 
 const coursesData = [
   {
@@ -27,13 +28,17 @@ const coursesData = [
 ];
 
 const Courses = () => {
+  useEffect(() => {
+    AOS.init(); // Initialize AOS
+  }, []);
+
   return (
     <section id="courses" className="py-5">
       <div className="container">
         <h2 className="text-center mb-4">Courses</h2>
         <div className="row">
           {coursesData.map((course, index) => (
-            <div className="col-md-4 mb-4" key={index}>
+            <div className="col-md-4 mb-4" key={index} data-aos="fade-up"> {/* Add AOS animation */}
               <div className="card h-100">
                 <div className="card-body">
                   <h5 className="card-title">{course.title}</h5>
@@ -42,8 +47,6 @@ const Courses = () => {
                   </h6>
                   <p className="card-text">{course.description}</p>
                   <div className="d-flex justify-content-center mt-3">
-                    {" "}
-                    {/* Centering the button */}
                     <a
                       href={course.link}
                       className="btn btn-primary"
