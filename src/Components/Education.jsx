@@ -14,28 +14,28 @@ const Education = () => {
 
   const educationData = [
     {
-      degree: "Bachelor of Science in Computer Science",
-      institution: "ABC University",
-      year: "2019 - 2023",
-      description: "Focused on software development, web technologies, and algorithms."
-    },
-    {
       degree: "High School Diploma",
-      institution: "XYZ High School",
-      year: "2017 - 2019",
-      description: "Graduated with honors, excelling in mathematics and computer science."
+      institution: "Govt. High School Tano Swabi",
+      year: "2017 - 2018",
+      description: "Graduated from Govt. High School Tano Swabi in 2018 with honors, showcasing strong academic performance. Excelled particularly in mathematics and computer science. Demonstrated a dedication to learning and a commitment to academic excellence during high school."
     },
     {
-      degree: "Bachelor of Science in Computer Science",
-      institution: "ABC University",
-      year: "2019 - 2023",
-      description: "Focused on software development, web technologies, and algorithms."
+      degree: "Pre-Engineering (Part-1)",
+      institution: "Suffah College Adina Swabi",
+      year: "2018 - 2019",
+      description: "Completed Pre-Engineering (Part-1) at Suffah College Adina Swabi in 2019 with honors. Excelled in key subjects, particularly mathematics and computer science. Demonstrated strong analytical and problem-solving skills during this foundational academic year."
     },
     {
-      degree: "High School Diploma",
-      institution: "XYZ High School",
-      year: "2017 - 2019",
-      description: "Graduated with honors, excelling in mathematics and computer science."
+      degree: "Pre-Engineering (Part-2)",
+      institution: "Govt. Higher Secondary School Adina Swabi",
+      year: "2019 - 2020",
+      description: "Completed Pre-Engineering (Part-2) at Govt. Higher Secondary School Adina Swabi in 2020. Focused on software development, web technologies, and algorithms, building a solid foundation in programming and technical skills. Developed a keen interest in technology and problem-solving during this period."
+    },
+    {
+      degree: "Bachelor of Students in Computer Science",
+      institution: "Govt. Degree College Lahor, Swabi",
+      year: "2022 - 2026",
+      description: "Currently pursuing a Bachelor's degree in Computer Science at Govt. Degree College Lahor, Swabi (2022–2026), with the degree still in progress. Excelling in Web Development and computer science, with a focus on software development and web technologies. Continuously building expertise in programming, algorithms, and problem-solving as part of ongoing studies."
     }
   ];
 

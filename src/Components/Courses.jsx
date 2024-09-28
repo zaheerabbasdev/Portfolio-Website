@@ -5,25 +5,25 @@ import "aos/dist/aos.css"; // Import AOS styles
 
 const coursesData = [
   {
-    title: "Full Stack Web Development",
-    platform: "Udemy",
-    description:
-      "Learned React, Node.js, MongoDB, and Express.js to build dynamic web applications.",
-    link: "https://www.udemy.com/course/your-course-link",
-  },
-  {
-    title: "Responsive Web Design",
-    platform: "freeCodeCamp",
-    description:
-      "Mastered HTML5, CSS3, and Bootstrap to create responsive and user-friendly websites.",
-    link: "https://www.freecodecamp.org/your-course-link",
-  },
-  {
-    title: "Python for Everybody",
+    title: "Crash Course on Python",
     platform: "Coursera",
     description:
-      "Gained proficiency in Python for data analysis and scripting.",
-    link: "https://www.coursera.org/your-course-link",
+      "Completed the Crash Course on Python on Coursera, focusing on Python programming fundamentals. Gained practical skills in writing clean, efficient code and problem-solving using Python. This course provided a strong foundation for further studies in computer science, complementing ongoing work towards a Bachelor's degree.",
+    link: "https://www.coursera.org/account/accomplishments/verify/2A7RWMJ3ACXU",
+  },
+  {
+    title: "Full Stack Development",
+    platform: "Coursera",
+    description:
+      "Completed the Full Stack Development course on Coursera, where I gained in-depth knowledge of front-end technologies including HTML5, CSS3, JavaScript, React and Bootstrap. Mastered the principles of responsive design to ensure websites work seamlessly across all devices. This hands-on experience has strengthened my ability to build dynamic and functional websites.",
+    link: "https://www.coursera.org/learn/the-full-stack/home/module/1",
+  },
+  {
+    title: "Freelancing",
+    platform: "DigiSkills",
+    description:
+      "Completed the Freelancing course on DigiSkills, focusing on building a successful freelance career. Learned key strategies for managing freelance projects, communicating with clients in a competitive online marketplace. The course provided practical insights into various freelancing platforms, enabling me to offer services like Python scripting and data analysis.",
+    link: "https://lms.digiskills.pk/MyResults/MyResults.aspx",
   },
 ];
 
