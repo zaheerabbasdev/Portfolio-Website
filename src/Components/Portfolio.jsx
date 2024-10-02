@@ -209,7 +209,7 @@ const Portfolio = () => {
               <h4>Text Scanner</h4>
               <p>
                 Text Scanner converts text from images captured by camera or
-                selected from your gallery into editable text and translates it
+                selected from your gallery into editable text,translates it
                 into multiple languages.
               </p>
               <a
