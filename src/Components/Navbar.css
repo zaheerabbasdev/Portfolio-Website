@@ -109,6 +109,12 @@ nav {
   right: 8px;
 }
 
+.container p{
+  text-align: justify;
+  font-size: 1rem;
+}
+
+
 .home-section .btn:hover {
   background: var(--primary-light); /* Change background color */
   color: #000; /* Change text color */

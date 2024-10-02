@@ -137,7 +137,8 @@ const Portfolio = () => {
               <h4>English Thesaurus</h4>
               <p>
                 English Thesaurus is a comprehensive resource that provides
-                synonyms, antonyms, and related words to enhance vocabulary.
+                synonyms, antonyms, and related words to enhance vocabulary. It
+                contains more than 500,000 words.
               </p>
               <a
                 href="https://play.google.com/store/apps/details?id=sh.eagletech.englishthesauruspro"
